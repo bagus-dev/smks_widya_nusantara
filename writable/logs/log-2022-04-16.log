@@ -1,0 +1,21 @@
+CRITICAL - 2022-04-16 14:56:39 --> Undefined variable: title
+#0 C:\xampp\htdocs\spk_sekolah\app\Views\auth\layout\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\spk_sekolah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spk_sekolah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spk_sekolah\system\View\View.php(226): CodeIgniter\View\View->render('auth/layout/tem...', Array, true)
+#4 C:\xampp\htdocs\spk_sekolah\system\Common.php(1089): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#5 C:\xampp\htdocs\spk_sekolah\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\App\\Views\\Auth...', Array)
+#6 C:\xampp\htdocs\spk_sekolah\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth...', Array)
+#7 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->login()
+#8 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-04-16 16:08:56 --> Call to undefined function App\Controllers\logged_in()
+#0 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(809): App\Controllers\Frontend->__construct()
+#1 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

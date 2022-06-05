@@ -1,0 +1,48 @@
+CRITICAL - 2022-06-01 08:13:04 --> Attempt to read property "nickname" on array
+#0 C:\xampp\htdocs\spk_sekolah\app\Views\frontend\profile.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\spk_sekolah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spk_sekolah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spk_sekolah\system\Common.php(1089): CodeIgniter\View\View->render('frontend/profil...', Array, true)
+#4 C:\xampp\htdocs\spk_sekolah\app\Controllers\Frontend.php(1292): view('frontend/profil...', Array)
+#5 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Frontend->profile()
+#6 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#7 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-01 09:25:20 --> Undefined property: stdClass::$live_witth
+#0 C:\xampp\htdocs\spk_sekolah\app\Views\frontend\profile.php(562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 562)
+#1 C:\xampp\htdocs\spk_sekolah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spk_sekolah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spk_sekolah\system\Common.php(1089): CodeIgniter\View\View->render('frontend/profil...', Array, true)
+#4 C:\xampp\htdocs\spk_sekolah\app\Controllers\Frontend.php(1292): view('frontend/profil...', Array)
+#5 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Frontend->profile()
+#6 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#7 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-01 09:32:34 --> Undefined variable $scholarship_year_2
+#0 C:\xampp\htdocs\spk_sekolah\app\Views\frontend\profile.php(736): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 736)
+#1 C:\xampp\htdocs\spk_sekolah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spk_sekolah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spk_sekolah\system\Common.php(1089): CodeIgniter\View\View->render('frontend/profil...', Array, true)
+#4 C:\xampp\htdocs\spk_sekolah\app\Controllers\Frontend.php(1292): view('frontend/profil...', Array)
+#5 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Frontend->profile()
+#6 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#7 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-01 09:32:45 --> Undefined variable $scholarship_year_3
+#0 C:\xampp\htdocs\spk_sekolah\app\Views\frontend\profile.php(755): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 755)
+#1 C:\xampp\htdocs\spk_sekolah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spk_sekolah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spk_sekolah\system\Common.php(1089): CodeIgniter\View\View->render('frontend/profil...', Array, true)
+#4 C:\xampp\htdocs\spk_sekolah\app\Controllers\Frontend.php(1292): view('frontend/profil...', Array)
+#5 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Frontend->profile()
+#6 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#7 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

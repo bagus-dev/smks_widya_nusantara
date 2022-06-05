@@ -1,0 +1,173 @@
+ERROR - 2022-04-21 07:05:27 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-21 07:05:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\spk_sekolah\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\spk_sekolah\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\spk_sekolah\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\spk_sekolah\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\spk_sekolah\app\Controllers\Frontend.php(35): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Frontend->index()
+#6 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#7 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-21 08:19:05 --> unlink(): Invalid argument
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): Inval...', 'C:\\xampp\\htdocs...', 184, Array)
+#1 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(184): unlink('')
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->delete_summernote()
+#3 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#4 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-21 08:19:48 --> unlink(): Invalid argument
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): Inval...', 'C:\\xampp\\htdocs...', 184, Array)
+#1 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(184): unlink('')
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->delete_summernote()
+#3 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#4 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-21 08:21:27 --> unlink(): http does not allow unlinking
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http ...', 'C:\\xampp\\htdocs...', 184, Array)
+#1 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(184): unlink('http://localhos...')
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->delete_summernote()
+#3 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#4 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-21 08:22:18 --> unlink(/assets/img/summernote/photo.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/assets/...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(185): unlink('/assets/img/sum...')
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->delete_summernote()
+#3 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#4 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-21 08:24:44 --> unlink(/assets/img/summernote/photo.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/assets/...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(185): unlink('/assets/img/sum...')
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->delete_summernote()
+#3 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#4 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-21 08:25:05 --> unlink(/assets/img/summernote/photo.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/assets/...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(185): unlink('/assets/img/sum...')
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->delete_summernote()
+#3 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#4 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-21 08:25:48 --> unlink(/assets/img/summernote/photo.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/assets/...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(185): unlink('/assets/img/sum...')
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->delete_summernote()
+#3 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#4 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-21 08:26:35 --> unlink(): http does not allow unlinking
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http ...', 'C:\\xampp\\htdocs...', 184, Array)
+#1 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(184): unlink('http://localhos...')
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->delete_summernote()
+#3 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#4 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-21 08:29:00 --> unlink(/assets/img/summernote/photo.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/assets/...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(185): unlink('/assets/img/sum...')
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->delete_summernote()
+#3 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#4 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-21 08:30:07 --> unlink(/assets/img/summernote/photo.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/assets/...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(185): unlink('/assets/img/sum...')
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->delete_summernote()
+#3 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#4 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-21 08:31:14 --> unlink(spk_sekolah/assets/img/summernote/photo.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(spk_seko...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(185): unlink('spk_sekolah/ass...')
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->delete_summernote()
+#3 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#4 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-21 08:32:16 --> unlink(/assets/img/summernote/photo.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/assets/...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(185): unlink('/assets/img/sum...')
+#2 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->delete_summernote()
+#3 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#4 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-21 08:59:23 --> Trying to get property 'description' of non-object
+#0 C:\xampp\htdocs\spk_sekolah\app\Views\backend\welcome.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\spk_sekolah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spk_sekolah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spk_sekolah\system\Common.php(1089): CodeIgniter\View\View->render('backend/welcome', Array, true)
+#4 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(155): view('backend/welcome', Array)
+#5 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->headmaster_welcome()
+#6 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-21 09:31:51 --> Trying to get property 'description' of non-object
+#0 C:\xampp\htdocs\spk_sekolah\app\Views\backend\history.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\spk_sekolah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spk_sekolah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spk_sekolah\system\Common.php(1089): CodeIgniter\View\View->render('backend/history', Array, true)
+#4 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(227): view('backend/history', Array)
+#5 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->school_history()
+#6 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-21 11:13:12 --> Undefined variable: contact
+#0 C:\xampp\htdocs\spk_sekolah\app\Views\backend\about.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\spk_sekolah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spk_sekolah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spk_sekolah\system\Common.php(1089): CodeIgniter\View\View->render('backend/about', Array, true)
+#4 C:\xampp\htdocs\spk_sekolah\app\Controllers\Backend.php(585): view('backend/about', Array)
+#5 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Backend->about_site()
+#6 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-21 14:45:09 --> Undefined variable: majors
+#0 C:\xampp\htdocs\spk_sekolah\app\Views\frontend\layout\template.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\spk_sekolah\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spk_sekolah\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spk_sekolah\system\View\View.php(226): CodeIgniter\View\View->render('frontend/layout...', Array, true)
+#4 C:\xampp\htdocs\spk_sekolah\system\Common.php(1089): CodeIgniter\View\View->render('frontend/profil...', Array, true)
+#5 C:\xampp\htdocs\spk_sekolah\app\Controllers\Frontend.php(109): view('frontend/profil...', Array)
+#6 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(832): App\Controllers\Frontend->teachers()
+#7 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend))
+#8 C:\xampp\htdocs\spk_sekolah\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\spk_sekolah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\spk_sekolah\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
